@@ -14,7 +14,7 @@ nodes:
    namespace: "motor0"
    params:
     pos_file: "package://tbotros_config/config/motor_winch0_position.yaml"
-    eds_file: "package://tbotros_config/config/605.3150.68-E.eds"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
     config_files: ['package://tbotros_config/config/motor_winch.yaml', 
                    'package://tbotros_config/config/motor_winch0.yaml']
  - type: "faulhaber_motor"

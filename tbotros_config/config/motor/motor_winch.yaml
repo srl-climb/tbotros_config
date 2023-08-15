@@ -1,0 +1,69 @@
+# Motor parameters
+# NOTE: user units: milimeter
+# NOTE: ros units: meter
+---
+factor: 1000 # conversion from ros units -> motor controllers' user defined units -> ros units * factor = user units
+homing_offset: 0.1 # Offset (in user units) of the zero position relative to the position of the reference switch (WARNING: change sign in case of reverse polarity)
+homing_method: 35 # Homing method
+sdos:
+ 0x2350: # Motor data
+  0x01: # Speed constant
+   value: 454
+  0x02: # Connection resistance
+   value: 17500
+  0x05: # Thermal time constant 1
+   value: 6799
+   
+ 0x2351: # Encoder data
+  0x02: # 4-edge resolution of an externally connected incremental encoder 
+   value: 2048 
+   
+ 0x2331: # Velocity control parameter set
+  0x01: # Proportional gain of speed controller
+   value: 3
+  0x02: # Integral term of speed controller
+   value: 10
+   
+ 0x2332: # Position control parameter set
+  0x01: # Proportional gain of position controller
+   value: 64
+  0x02: # Differential term of position controller
+   value: 2
+   
+ 0x2333: # Current control parameter set
+  0x01: # Continuous current limit [mA]
+   value: 370
+  0x02: # Peak current limit [mA]
+   value: 1110
+  0x03: # Integral term of current controller
+   value: 255
+   
+ 0x607E: # Polarity
+  0x00: # Bit-coded
+   value: 0
+
+ 0x607D: # Software position limit
+  0x02: # Upper limit of the position range # NOTE: 02 and 01 are switched to avoid errors when setting the parameters
+   value: 2000 # WARNING: change sign in case of reverse polarity 
+  0x01: # Lower limit of the position range
+   value: -2000 # WARNING: change sign in case of reverse polarity
+  
+ 0x607F: # Max profile velocity
+  0x00: # Maximum permitted speed [min –1 ]
+   value: 6539 
+   
+ 0x6085: # Quick stop deceleration
+  0x00: # Braking ramp value at Quick stop [1/s 2 ]
+   value: 30000 
+   
+ 0x6091: # Gear ratio
+  0x01: # Number of motor revolutions 
+   value: 369
+  0x02: # Number of revolutions of the output shaft
+   value: 1 
+   
+ 0x6092: # Feed constant
+  0x01: # Feed in user units
+   value: 6281
+  0x02: # Number of revolutions of the outputshaft
+   value: 100 

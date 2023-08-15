@@ -1,0 +1,78 @@
+# Motor parameters
+# NOTE: user units: micro meter
+# NOTE: ros units: meter
+---
+can_id: 12 # can node id
+factor: 1000000 # conversion from ros units -> motor controllers' user defined units -> ros units * factor = user units
+homing_offset: 0.6 # Offset (in user units) of the zero position relative to the position of the reference switch (WARNING: change sign in case of reverse polarity)
+homing_method: 17 # Homing method
+sdos:
+ 0x2331: # Velocity control parameter set
+  0x01: # Proportional gain of speed controller
+   value: 2
+  0x02: # Integral term of speed controller
+   value: 14
+   
+ 0x2332: # Position control parameter set
+  0x01: # Proportional gain of position controller
+   value: 64
+  0x02: # Differential term of position controller
+   value: 1
+   
+ 0x2333: # Current control parameter set
+  0x01: # Continuous current limit [mA]
+   value: 440
+  0x02: # Peak current limit [mA]
+   value: 1320
+  0x03: # Integral term of current controller
+   value: 188
+   
+ 0x607E: # Polarity
+  0x00: # Bit-coded
+   value: [0,0,0,0,0,0,1,1]
+
+ 0x607D: # Software position limit
+  0x01: # Lower limit of the position range
+   value: 0 # WARNING: change sign in case of reverse polarity
+  0x02: # Upper limit of the position range
+   value: -600000 # WARNING: change sign in case of reverse polarity 
+
+ 0x607F: # Max profile velocity
+  0x00: # Maximum permitted speed [min –1 ]
+   value: 5530 
+   
+ 0x6085: # Quick stop deceleration
+  0x00: # Braking ramp value at Quick stop [1/s 2 ]
+   value: 30000 
+   
+ 0x6091: # Gear ratio
+  0x01: # Number of motor revolutions 
+   value: 66  
+  0x02: # Number of revolutions of the output shaft
+   value: 10 
+   
+ 0x6092: # Feed constant
+  0x01: # Feed in user units
+   value: 700 
+  0x02: # Number of revolutions of the outputshaft
+   value: 1 
+   
+ 0x6099: # Homing speed
+  0x01: # Speed during switch search [min –1 ]
+   value: 750
+  0x02: # Speed during search for zero [min –1 ]
+   value: 50
+   
+ 0x609A: # Homing acceleration
+  0x00: # Acceleration during homing [1/s 2 ]
+   value: 50
+   
+ 0x2310: # Digital input settings
+  0x02: # Selection of the upper limit switch
+   value: 8 # 8-bit-mask: 00001000 as integer
+  0x01: # Selection of the lower limit switch
+   value: 16 # 8-bit-mask: 00010000 as integer, NOTE: Lower value needs to come first to avoid weird CAN errors
+  0x05: # Switch polarity
+   value: 31 # 5-bit-mask: 11111 as integer
+  0x06: # Polarity for homing limit switch
+   value: 1

@@ -1,0 +1,117 @@
+# Parameters canopen network ros nodes
+---
+bustype: 'socketcan'
+channel: 'can0'
+bitrate: 1000000
+nodes:
+ - type: "canopen_master"
+   name: "canopen_master"
+   namespace: ""
+   params:
+    syncrate: 0.02
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor0"
+   params:
+    pos_file: "package://tbotros_config/config/motor_winch0_position.yaml"
+    eds_file: "package://tbotros_config/config/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_winch.yaml', 
+                   'package://tbotros_config/config/motor_winch0.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor1"
+   params:
+    pos_file: "package://tbotros_config/config/motor_winch1_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_winch.yaml', 
+                   'package://tbotros_config/config/motor_winch1.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor2"
+   params:
+    pos_file: "package://tbotros_config/config/motor_winch2_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_winch.yaml', 
+                   'package://tbotros_config/config/motor_winch2.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor3"
+   params:
+    pos_file: "package://tbotros_config/config/motor_winch3_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_winch.yaml', 
+                   'package://tbotros_config/config/motor_winch3.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor4"
+   params:
+    pos_file: "package://tbotros_config/config/motor_winch4_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_winch.yaml', 
+                   'package://tbotros_config/config/motor_winch4.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor5"
+   params:
+    pos_file: "package://tbotros_config/config/motor_winch5_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_winch.yaml', 
+                   'package://tbotros_config/config/motor_winch5.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor6"
+   params:
+    pos_file: "package://tbotros_config/config/motor_winch6_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_winch.yaml', 
+                   'package://tbotros_config/config/motor_winch6.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor7"
+   params:
+    pos_file: "package://tbotros_config/config/motor_winch7_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_winch.yaml', 
+                   'package://tbotros_config/config/motor_winch7.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor8"
+   params:
+    pos_file: "package://tbotros_config/config/motor_winch8_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_winch.yaml', 
+                   'package://tbotros_config/config/motor_winch8.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor9"
+   params:
+    pos_file: "package://tbotros_config/config/motor_winch9_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_winch.yaml', 
+                   'package://tbotros_config/config/motor_winch9.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor10"
+   params:
+    pos_file: "package://tbotros_config/config/motor_joint0_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_joint.yaml', 
+                   'package://tbotros_config/config/motor_joint0.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor11"
+   params:
+    pos_file: "package://tbotros_config/config/motor_joint1_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_joint.yaml', 
+                   'package://tbotros_config/config/motor_joint1.yaml']
+ - type: "faulhaber_motor"
+   name: "faulhaber_motor"
+   namespace: "motor12"
+   params:
+    pos_file: "package://tbotros_config/config/motor_joint2_position.yaml"
+    eds_file: "package://canopen_network/eds/605.3150.68-E.eds"
+    config_files: ['package://tbotros_config/config/motor_joint.yaml', 
+                   'package://tbotros_config/config/motor_joint2.yaml']
+
+

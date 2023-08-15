@@ -1,0 +1,1026 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /RobotModel2/Description Topic1
+        - /TF1
+        - /TF1/Tree1
+      Splitter Ratio: 0.45186135172843933
+    Tree Height: 418
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Tool Properties
+    Expanded:
+      - /2D Goal Pose1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /ghost/robot_description
+      Enabled: false
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      TF Prefix: ""
+      Update Interval: 0
+      Value: false
+      Visual Enabled: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: /home/srl-orin/ros2_ws/src/ros2_tetherbot/ros2_tetherbot/testurdf.urdf
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        alphashape0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint25:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint26:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint27:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint28:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint29:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint30:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint31:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint32:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint33:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint34:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cylinder9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        depthsensor0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        dockpoint0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        dockpoint1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        dockpoint2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        dockpoint3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        dockpoint4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        gripper0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        gripper1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        gripper2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        gripper3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        gripper4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        grippoint0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        map:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        platform0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        point0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point12:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point13:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point14:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point15:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point26:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point27:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        prismaticlink0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        prismaticlink1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        revolutelink0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        rpparm0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        sphere0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        sphere1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        sphere2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        sphere3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        sphere4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        alphashape0:
+          Value: true
+        anchorpoint0:
+          Value: true
+        anchorpoint1:
+          Value: true
+        anchorpoint2:
+          Value: true
+        anchorpoint25:
+          Value: true
+        anchorpoint26:
+          Value: true
+        anchorpoint27:
+          Value: true
+        anchorpoint28:
+          Value: true
+        anchorpoint29:
+          Value: true
+        anchorpoint3:
+          Value: true
+        anchorpoint30:
+          Value: true
+        anchorpoint31:
+          Value: true
+        anchorpoint32:
+          Value: true
+        anchorpoint33:
+          Value: true
+        anchorpoint34:
+          Value: true
+        anchorpoint4:
+          Value: true
+        base_link:
+          Value: true
+        camera0:
+          Value: true
+        camera1:
+          Value: true
+        camera2:
+          Value: true
+        camera3:
+          Value: true
+        camera4:
+          Value: true
+        cylinder0:
+          Value: true
+        cylinder1:
+          Value: true
+        cylinder10:
+          Value: true
+        cylinder11:
+          Value: true
+        cylinder2:
+          Value: true
+        cylinder3:
+          Value: true
+        cylinder4:
+          Value: true
+        cylinder5:
+          Value: true
+        cylinder6:
+          Value: true
+        cylinder7:
+          Value: true
+        cylinder8:
+          Value: true
+        cylinder9:
+          Value: true
+        depthsensor0:
+          Value: true
+        dockpoint0:
+          Value: true
+        dockpoint1:
+          Value: true
+        dockpoint2:
+          Value: true
+        dockpoint3:
+          Value: true
+        dockpoint4:
+          Value: true
+        ghost-alphashape0:
+          Value: true
+        ghost-anchorpoint0:
+          Value: true
+        ghost-anchorpoint1:
+          Value: true
+        ghost-anchorpoint2:
+          Value: true
+        ghost-anchorpoint25:
+          Value: true
+        ghost-anchorpoint26:
+          Value: true
+        ghost-anchorpoint27:
+          Value: true
+        ghost-anchorpoint28:
+          Value: true
+        ghost-anchorpoint29:
+          Value: true
+        ghost-anchorpoint3:
+          Value: true
+        ghost-anchorpoint30:
+          Value: true
+        ghost-anchorpoint31:
+          Value: true
+        ghost-anchorpoint32:
+          Value: true
+        ghost-anchorpoint33:
+          Value: true
+        ghost-anchorpoint34:
+          Value: true
+        ghost-anchorpoint4:
+          Value: true
+        ghost-camera0:
+          Value: true
+        ghost-camera1:
+          Value: true
+        ghost-camera2:
+          Value: true
+        ghost-camera3:
+          Value: true
+        ghost-camera4:
+          Value: true
+        ghost-cylinder0:
+          Value: true
+        ghost-cylinder1:
+          Value: true
+        ghost-cylinder10:
+          Value: true
+        ghost-cylinder11:
+          Value: true
+        ghost-cylinder2:
+          Value: true
+        ghost-cylinder3:
+          Value: true
+        ghost-cylinder4:
+          Value: true
+        ghost-cylinder5:
+          Value: true
+        ghost-cylinder6:
+          Value: true
+        ghost-cylinder7:
+          Value: true
+        ghost-cylinder8:
+          Value: true
+        ghost-cylinder9:
+          Value: true
+        ghost-depthsensor0:
+          Value: true
+        ghost-dockpoint0:
+          Value: true
+        ghost-dockpoint1:
+          Value: true
+        ghost-dockpoint2:
+          Value: true
+        ghost-dockpoint3:
+          Value: true
+        ghost-dockpoint4:
+          Value: true
+        ghost-gripper0:
+          Value: true
+        ghost-gripper1:
+          Value: true
+        ghost-gripper2:
+          Value: true
+        ghost-gripper3:
+          Value: true
+        ghost-gripper4:
+          Value: true
+        ghost-grippoint0:
+          Value: true
+        ghost-grippoint1:
+          Value: true
+        ghost-grippoint2:
+          Value: true
+        ghost-grippoint3:
+          Value: true
+        ghost-grippoint4:
+          Value: true
+        ghost-hoverpoint0:
+          Value: true
+        ghost-hoverpoint1:
+          Value: true
+        ghost-hoverpoint2:
+          Value: true
+        ghost-hoverpoint3:
+          Value: true
+        ghost-hoverpoint4:
+          Value: true
+        ghost-platform0:
+          Value: true
+        ghost-point0:
+          Value: true
+        ghost-point1:
+          Value: true
+        ghost-point10:
+          Value: true
+        ghost-point11:
+          Value: true
+        ghost-point12:
+          Value: true
+        ghost-point13:
+          Value: true
+        ghost-point14:
+          Value: true
+        ghost-point15:
+          Value: true
+        ghost-point2:
+          Value: true
+        ghost-point26:
+          Value: true
+        ghost-point27:
+          Value: true
+        ghost-point3:
+          Value: true
+        ghost-point4:
+          Value: true
+        ghost-point5:
+          Value: true
+        ghost-point6:
+          Value: true
+        ghost-point7:
+          Value: true
+        ghost-point8:
+          Value: true
+        ghost-point9:
+          Value: true
+        ghost-prismaticlink0:
+          Value: true
+        ghost-prismaticlink1:
+          Value: true
+        ghost-revolutelink0:
+          Value: true
+        ghost-rpparm0:
+          Value: true
+        ghost-sphere0:
+          Value: true
+        ghost-sphere1:
+          Value: true
+        ghost-sphere2:
+          Value: true
+        ghost-sphere3:
+          Value: true
+        ghost-sphere4:
+          Value: true
+        gripper0:
+          Value: true
+        gripper1:
+          Value: true
+        gripper2:
+          Value: true
+        gripper3:
+          Value: true
+        gripper4:
+          Value: true
+        grippoint0:
+          Value: true
+        grippoint1:
+          Value: true
+        grippoint2:
+          Value: true
+        grippoint3:
+          Value: true
+        grippoint4:
+          Value: true
+        hoverpoint0:
+          Value: true
+        hoverpoint1:
+          Value: true
+        hoverpoint2:
+          Value: true
+        hoverpoint3:
+          Value: true
+        hoverpoint4:
+          Value: true
+        map:
+          Value: true
+        odom:
+          Value: true
+        platform0:
+          Value: true
+        point0:
+          Value: true
+        point1:
+          Value: true
+        point10:
+          Value: true
+        point11:
+          Value: true
+        point12:
+          Value: true
+        point13:
+          Value: true
+        point14:
+          Value: true
+        point15:
+          Value: true
+        point2:
+          Value: true
+        point26:
+          Value: true
+        point27:
+          Value: true
+        point3:
+          Value: true
+        point4:
+          Value: true
+        point5:
+          Value: true
+        point6:
+          Value: true
+        point7:
+          Value: true
+        point8:
+          Value: true
+        point9:
+          Value: true
+        prismaticlink0:
+          Value: true
+        prismaticlink1:
+          Value: true
+        revolutelink0:
+          Value: true
+        rpparm0:
+          Value: true
+        sphere0:
+          Value: true
+        sphere1:
+          Value: true
+        sphere2:
+          Value: true
+        sphere3:
+          Value: true
+        sphere4:
+          Value: true
+        zedm_base_link:
+          Value: true
+        zedm_camera_center:
+          Value: true
+        zedm_imu_link:
+          Value: true
+        zedm_left_camera_frame:
+          Value: true
+        zedm_left_camera_optical_frame:
+          Value: true
+        zedm_right_camera_frame:
+          Value: true
+        zedm_right_camera_optical_frame:
+          Value: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: false
+      Tree:
+        map:
+          odom:
+            base_link:
+              zedm_base_link:
+                zedm_camera_center:
+                  zedm_left_camera_frame:
+                    zedm_imu_link:
+                      {}
+                    zedm_left_camera_optical_frame:
+                      {}
+                  zedm_right_camera_frame:
+                    zedm_right_camera_optical_frame:
+                      {}
+          platform0:
+            alphashape0:
+              point26:
+                {}
+            anchorpoint25:
+              {}
+            anchorpoint26:
+              {}
+            anchorpoint27:
+              {}
+            anchorpoint28:
+              {}
+            anchorpoint29:
+              {}
+            anchorpoint30:
+              {}
+            anchorpoint31:
+              {}
+            anchorpoint32:
+              {}
+            anchorpoint33:
+              {}
+            anchorpoint34:
+              {}
+            camera0:
+              {}
+            camera1:
+              {}
+            camera2:
+              {}
+            camera3:
+              {}
+            camera4:
+              {}
+            cylinder11:
+              point27:
+                {}
+            depthsensor0:
+              {}
+            rpparm0:
+              revolutelink0:
+                cylinder0:
+                  point0:
+                    {}
+                cylinder1:
+                  point1:
+                    {}
+                prismaticlink0:
+                  cylinder2:
+                    point2:
+                      {}
+                  cylinder3:
+                    point3:
+                      {}
+                  cylinder4:
+                    point4:
+                      {}
+                  prismaticlink1:
+                    cylinder5:
+                      point5:
+                        {}
+      Update Interval: 0
+      Value: true
+    - Class: rviz_default_plugins/Image
+      Enabled: true
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: ""
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+      Line color: 128; 128; 0
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /goal_pose
+    - Class: rviz_default_plugins/PublishPoint
+      Single click: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /clicked_point
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 2.2655673027038574
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -0.15526100993156433
+        Y: 0.0579119510948658
+        Z: 0.027011780068278313
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.38539865612983704
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 6.003602981567383
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 846
+  Hide Left Dock: false
+  Hide Right Dock: false
+  Image:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd00000004000000000000030d000002f4fc020000000afb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d0000022d000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d0061006700650100000270000000c10000000000000000fb0000000a0049006d0061006700650100000270000000c10000002800ffffff000000010000010f000002f4fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d000002f4000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004420000003efc0100000002fb0000000800540069006d00650100000000000004420000000000000000fb0000000800540069006d00650100000000000004500000000000000000000002d9000002f400000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1516
+  X: 273
+  Y: 194

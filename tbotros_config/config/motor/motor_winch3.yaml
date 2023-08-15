@@ -1,0 +1,4 @@
+# Motor parameters
+---
+can_id: 4 # can node id
+

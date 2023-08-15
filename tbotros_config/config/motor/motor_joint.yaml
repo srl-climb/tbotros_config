@@ -1,0 +1,14 @@
+# Motor parameters
+---
+sdos:
+ 0x2350: # Motor data
+  0x01: # Speed constant
+   value: 397
+  0x02: # Connection resistance
+   value: 9040
+  0x05: # Thermal time constant 1
+   value: 7000
+   
+ 0x2351: # Encoder data
+  0x02: # 4-edge resolution of an externally connected incremental encoder 
+   value: 2048 

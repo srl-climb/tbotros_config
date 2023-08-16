@@ -4,7 +4,7 @@
 ---
 can_id: 12 # can node id
 factor: 1000000 # conversion from ros units -> motor controllers' user defined units -> ros units * factor = user units
-homing_offset: 0.6 # Offset (in user units) of the zero position relative to the position of the reference switch (WARNING: change sign in case of reverse polarity)
+homing_offset: 0.961 # Offset (in user units) of the zero position relative to the position of the reference switch (WARNING: change sign in case of reverse polarity)
 homing_method: 17 # Homing method
 sdos:
  0x2331: # Velocity control parameter set
@@ -33,9 +33,9 @@ sdos:
 
  0x607D: # Software position limit
   0x01: # Lower limit of the position range
-   value: 0 # WARNING: change sign in case of reverse polarity
+   value: 961000 # WARNING: change sign in case of reverse polarity
   0x02: # Upper limit of the position range
-   value: -600000 # WARNING: change sign in case of reverse polarity 
+   value: 375000 # WARNING: change sign in case of reverse polarity 
 
  0x607F: # Max profile velocity
   0x00: # Maximum permitted speed [min –1 ]
@@ -59,7 +59,7 @@ sdos:
    
  0x6099: # Homing speed
   0x01: # Speed during switch search [min –1 ]
-   value: 750
+   value: 1500
   0x02: # Speed during search for zero [min –1 ]
    value: 50
    
@@ -69,9 +69,9 @@ sdos:
    
  0x2310: # Digital input settings
   0x02: # Selection of the upper limit switch
-   value: 8 # 8-bit-mask: 00001000 as integer
+   value: 8 # 8-bit-mask: 00010000 as integer
   0x01: # Selection of the lower limit switch
-   value: 16 # 8-bit-mask: 00010000 as integer, NOTE: Lower value needs to come first to avoid weird CAN errors
+   value: 16 # 8-bit-mask: 00001000 as integer
   0x05: # Switch polarity
    value: 31 # 5-bit-mask: 11111 as integer
   0x06: # Polarity for homing limit switch

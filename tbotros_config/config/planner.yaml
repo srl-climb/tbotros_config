@@ -2,10 +2,10 @@
 # all units in base units
 ---
 simulation:
- dt: 0.0167 # timestep
+ dt: 0.02 # timestep
 platform:
  smoothing:
-  ds: 0.005
+  ds: 0.001
  profiler:
   v_t: 0.01 # target velocity
   q_lim: [[[-0,1],[-1,1],[-2,2]]] # position, velocity, acceleration joint limits 
@@ -26,8 +26,6 @@ platform:
     padding: [-0.1,-1.0,0,-180,-180,-45] # x, y, z, thetax, thetay, thetaz padding of the analysis space
     scale: [0.1,0.1,0.1,45,45,15] # x, y, z, thetax, thetay, thetaz scale (= resolution) of the analysis space
     mode: "max" # "first", "max"
-  patform_align:
-    
   platform_to_gripper:
    graph:
     goal_skew: 1 # maximum skew to goal
@@ -40,17 +38,17 @@ platform:
     iter_max: 1000 # max iterations of Astar algorithm 
 arm:
  smoothing:
-  ds: 0.2 # approximate distance between points on the spline
+  ds: 0.002 # approximate distance between points on the spline
  profiler:
-  v_t: 0.01 # target velocity
-  q_lim: [[[-1,1],[-120,120],[-360,360]],
-          [[-1,1],[-1,1],[-5,5]],
-          [[-1,1],[-1,1],[-5,5]]] # position, velocity, acceleration joint limits
+  v_t: 0.003 # target velocity
+  q_lim: [[[-3.141592,3.141592],[-9.424776,9.424776],[-9.424776,9.424776]],
+          [[0.375,0.961],[-0.003,0.003],[-0.003,0.003]],
+          [[0.074,0.199],[-0.003,0.003],[-0.003,0.003]]] # position, velocity, acceleration joint limits, note: qlim is in radians or meters
  planner:
   arm_to_pose:
    graph:
-    goal_dist: 0.05 # maximum distance to goal
-    directions: [0.025,0.025,0.025] # x, y, z, thetax, thetay, thetaz search direction and resolution
+    goal_dist: 0.001 # maximum distance to goal
+    directions: [0.005,0.005,0.005] # x, y, z, thetax, thetay, thetaz search direction and resolution
     iter_max: 20000 # max iterations of Astar algorithm
 global:
  graph:

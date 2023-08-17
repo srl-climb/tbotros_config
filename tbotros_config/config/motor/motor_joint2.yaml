@@ -33,7 +33,7 @@ sdos:
 
  0x607D: # Software position limit
   0x01: # Lower limit of the position range
-   value: 199000 # WARNING: change sign in case of reverse polarity -74000
+   value: 198000 # WARNING: change sign in case of reverse polarity -74000
   0x02: # Upper limit of the position range
    value: 74000 # WARNING: change sign in case of reverse polarity -200000
   

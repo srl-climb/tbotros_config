@@ -5,11 +5,13 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /RobotModel2/Description Topic1
-        - /TF1
-        - /TF1/Tree1
-      Splitter Ratio: 0.45186135172843933
-    Tree Height: 418
+        - /Status1
+        - /RobotModel1/Description Topic1
+        - /TF1/Frames1
+        - /Marker1
+        - /Marker1/Topic1
+      Splitter Ratio: 0.3724035620689392
+    Tree Height: 787
   - Class: rviz_common/Selection
     Name: Selection
   - Class: rviz_common/Tool Properties
@@ -47,29 +49,6 @@ Visualization Manager:
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: false
-      Description File: ""
-      Description Source: Topic
-      Description Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /ghost/robot_description
-      Enabled: false
-      Links:
-        All Links Enabled: true
-        Expand Joint Details: false
-        Expand Link Details: false
-        Expand Tree: false
-        Link Tree Style: Links in Alphabetic Order
-      Name: RobotModel
-      TF Prefix: ""
-      Update Interval: 0
-      Value: false
-      Visual Enabled: true
-    - Alpha: 1
-      Class: rviz_default_plugins/RobotModel
-      Collision Enabled: false
       Description File: /home/srl-orin/ros2_ws/src/ros2_tetherbot/ros2_tetherbot/testurdf.urdf
       Description Source: Topic
       Description Topic:
@@ -85,11 +64,6 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        alphashape0:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         anchorpoint0:
           Alpha: 1
           Show Axes: false
@@ -100,32 +74,32 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        anchorpoint10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint12:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint13:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        anchorpoint14:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         anchorpoint2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        anchorpoint25:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        anchorpoint26:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        anchorpoint27:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        anchorpoint28:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        anchorpoint29:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -135,117 +109,32 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        anchorpoint30:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        anchorpoint31:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        anchorpoint32:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        anchorpoint33:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        anchorpoint34:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         anchorpoint4:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        camera0:
+        anchorpoint5:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        camera1:
+        anchorpoint6:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        camera2:
+        anchorpoint7:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        camera3:
+        anchorpoint8:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        camera4:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder0:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder10:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder11:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder4:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder5:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder6:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder7:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder8:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        cylinder9:
+        anchorpoint9:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -325,6 +214,51 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        grippoint5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hold0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hold1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hold2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hold3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hold4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         hoverpoint0:
           Alpha: 1
           Show Axes: false
@@ -350,10 +284,60 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        hoverpoint5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         map:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+        marker0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        marker1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        marker2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        marker3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        marker4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         platform0:
           Alpha: 1
           Show Axes: false
@@ -399,16 +383,6 @@ Visualization Manager:
           Show Trail: false
           Value: true
         point2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        point26:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        point27:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -464,31 +438,90 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        sphere0:
+        trianglemesh0:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        sphere1:
+        trianglemesh1:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        sphere2:
+        trianglemesh10:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        sphere3:
+        trianglemesh11:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        sphere4:
+        trianglemesh12:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
+        trianglemesh13:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh14:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh15:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
       Name: RobotModel
       TF Prefix: ""
       Update Interval: 0
@@ -498,74 +531,38 @@ Visualization Manager:
       Enabled: true
       Frame Timeout: 15
       Frames:
-        All Enabled: true
-        alphashape0:
-          Value: true
+        All Enabled: false
         anchorpoint0:
           Value: true
         anchorpoint1:
           Value: true
+        anchorpoint10:
+          Value: true
+        anchorpoint11:
+          Value: true
+        anchorpoint12:
+          Value: true
+        anchorpoint13:
+          Value: true
+        anchorpoint14:
+          Value: true
         anchorpoint2:
-          Value: true
-        anchorpoint25:
-          Value: true
-        anchorpoint26:
-          Value: true
-        anchorpoint27:
-          Value: true
-        anchorpoint28:
-          Value: true
-        anchorpoint29:
           Value: true
         anchorpoint3:
           Value: true
-        anchorpoint30:
-          Value: true
-        anchorpoint31:
-          Value: true
-        anchorpoint32:
-          Value: true
-        anchorpoint33:
-          Value: true
-        anchorpoint34:
-          Value: true
         anchorpoint4:
           Value: true
-        base_link:
+        anchorpoint5:
           Value: true
-        camera0:
+        anchorpoint6:
           Value: true
-        camera1:
+        anchorpoint7:
           Value: true
-        camera2:
+        anchorpoint8:
           Value: true
-        camera3:
+        anchorpoint9:
           Value: true
-        camera4:
-          Value: true
-        cylinder0:
-          Value: true
-        cylinder1:
-          Value: true
-        cylinder10:
-          Value: true
-        cylinder11:
-          Value: true
-        cylinder2:
-          Value: true
-        cylinder3:
-          Value: true
-        cylinder4:
-          Value: true
-        cylinder5:
-          Value: true
-        cylinder6:
-          Value: true
-        cylinder7:
-          Value: true
-        cylinder8:
-          Value: true
-        cylinder9:
+        calibration_target:
           Value: true
         depthsensor0:
           Value: true
@@ -578,170 +575,6 @@ Visualization Manager:
         dockpoint3:
           Value: true
         dockpoint4:
-          Value: true
-        ghost-alphashape0:
-          Value: true
-        ghost-anchorpoint0:
-          Value: true
-        ghost-anchorpoint1:
-          Value: true
-        ghost-anchorpoint2:
-          Value: true
-        ghost-anchorpoint25:
-          Value: true
-        ghost-anchorpoint26:
-          Value: true
-        ghost-anchorpoint27:
-          Value: true
-        ghost-anchorpoint28:
-          Value: true
-        ghost-anchorpoint29:
-          Value: true
-        ghost-anchorpoint3:
-          Value: true
-        ghost-anchorpoint30:
-          Value: true
-        ghost-anchorpoint31:
-          Value: true
-        ghost-anchorpoint32:
-          Value: true
-        ghost-anchorpoint33:
-          Value: true
-        ghost-anchorpoint34:
-          Value: true
-        ghost-anchorpoint4:
-          Value: true
-        ghost-camera0:
-          Value: true
-        ghost-camera1:
-          Value: true
-        ghost-camera2:
-          Value: true
-        ghost-camera3:
-          Value: true
-        ghost-camera4:
-          Value: true
-        ghost-cylinder0:
-          Value: true
-        ghost-cylinder1:
-          Value: true
-        ghost-cylinder10:
-          Value: true
-        ghost-cylinder11:
-          Value: true
-        ghost-cylinder2:
-          Value: true
-        ghost-cylinder3:
-          Value: true
-        ghost-cylinder4:
-          Value: true
-        ghost-cylinder5:
-          Value: true
-        ghost-cylinder6:
-          Value: true
-        ghost-cylinder7:
-          Value: true
-        ghost-cylinder8:
-          Value: true
-        ghost-cylinder9:
-          Value: true
-        ghost-depthsensor0:
-          Value: true
-        ghost-dockpoint0:
-          Value: true
-        ghost-dockpoint1:
-          Value: true
-        ghost-dockpoint2:
-          Value: true
-        ghost-dockpoint3:
-          Value: true
-        ghost-dockpoint4:
-          Value: true
-        ghost-gripper0:
-          Value: true
-        ghost-gripper1:
-          Value: true
-        ghost-gripper2:
-          Value: true
-        ghost-gripper3:
-          Value: true
-        ghost-gripper4:
-          Value: true
-        ghost-grippoint0:
-          Value: true
-        ghost-grippoint1:
-          Value: true
-        ghost-grippoint2:
-          Value: true
-        ghost-grippoint3:
-          Value: true
-        ghost-grippoint4:
-          Value: true
-        ghost-hoverpoint0:
-          Value: true
-        ghost-hoverpoint1:
-          Value: true
-        ghost-hoverpoint2:
-          Value: true
-        ghost-hoverpoint3:
-          Value: true
-        ghost-hoverpoint4:
-          Value: true
-        ghost-platform0:
-          Value: true
-        ghost-point0:
-          Value: true
-        ghost-point1:
-          Value: true
-        ghost-point10:
-          Value: true
-        ghost-point11:
-          Value: true
-        ghost-point12:
-          Value: true
-        ghost-point13:
-          Value: true
-        ghost-point14:
-          Value: true
-        ghost-point15:
-          Value: true
-        ghost-point2:
-          Value: true
-        ghost-point26:
-          Value: true
-        ghost-point27:
-          Value: true
-        ghost-point3:
-          Value: true
-        ghost-point4:
-          Value: true
-        ghost-point5:
-          Value: true
-        ghost-point6:
-          Value: true
-        ghost-point7:
-          Value: true
-        ghost-point8:
-          Value: true
-        ghost-point9:
-          Value: true
-        ghost-prismaticlink0:
-          Value: true
-        ghost-prismaticlink1:
-          Value: true
-        ghost-revolutelink0:
-          Value: true
-        ghost-rpparm0:
-          Value: true
-        ghost-sphere0:
-          Value: true
-        ghost-sphere1:
-          Value: true
-        ghost-sphere2:
-          Value: true
-        ghost-sphere3:
-          Value: true
-        ghost-sphere4:
           Value: true
         gripper0:
           Value: true
@@ -763,6 +596,26 @@ Visualization Manager:
           Value: true
         grippoint4:
           Value: true
+        grippoint5:
+          Value: true
+        grippoint6:
+          Value: true
+        grippoint7:
+          Value: true
+        grippoint8:
+          Value: true
+        grippoint9:
+          Value: true
+        hold0:
+          Value: true
+        hold1:
+          Value: true
+        hold2:
+          Value: true
+        hold3:
+          Value: true
+        hold4:
+          Value: true
         hoverpoint0:
           Value: true
         hoverpoint1:
@@ -773,9 +626,29 @@ Visualization Manager:
           Value: true
         hoverpoint4:
           Value: true
+        hoverpoint5:
+          Value: true
+        hoverpoint6:
+          Value: true
+        hoverpoint7:
+          Value: true
+        hoverpoint8:
+          Value: true
+        hoverpoint9:
+          Value: true
         map:
           Value: true
-        odom:
+        marker0:
+          Value: true
+        marker1:
+          Value: true
+        marker2:
+          Value: true
+        marker3:
+          Value: true
+        marker4:
+          Value: true
+        motive_origin:
           Value: true
         platform0:
           Value: true
@@ -796,10 +669,6 @@ Visualization Manager:
         point15:
           Value: true
         point2:
-          Value: true
-        point26:
-          Value: true
-        point27:
           Value: true
         point3:
           Value: true
@@ -823,125 +692,224 @@ Visualization Manager:
           Value: true
         rpparm0:
           Value: true
-        sphere0:
+        tbot_center:
           Value: true
-        sphere1:
+        tbot_motive_origin:
           Value: true
-        sphere2:
+        trianglemesh0:
           Value: true
-        sphere3:
+        trianglemesh1:
           Value: true
-        sphere4:
+        trianglemesh10:
           Value: true
-        zedm_base_link:
+        trianglemesh11:
           Value: true
-        zedm_camera_center:
+        trianglemesh12:
           Value: true
-        zedm_imu_link:
+        trianglemesh13:
           Value: true
-        zedm_left_camera_frame:
+        trianglemesh14:
           Value: true
-        zedm_left_camera_optical_frame:
+        trianglemesh15:
           Value: true
-        zedm_right_camera_frame:
+        trianglemesh2:
           Value: true
-        zedm_right_camera_optical_frame:
+        trianglemesh3:
+          Value: true
+        trianglemesh4:
+          Value: true
+        trianglemesh5:
+          Value: true
+        trianglemesh6:
+          Value: true
+        trianglemesh7:
+          Value: true
+        trianglemesh8:
+          Value: true
+        trianglemesh9:
+          Value: true
+        wall0:
           Value: true
       Marker Scale: 1
       Name: TF
-      Show Arrows: true
+      Show Arrows: false
       Show Axes: true
       Show Names: false
       Tree:
         map:
-          odom:
-            base_link:
-              zedm_base_link:
-                zedm_camera_center:
-                  zedm_left_camera_frame:
-                    zedm_imu_link:
-                      {}
-                    zedm_left_camera_optical_frame:
-                      {}
-                  zedm_right_camera_frame:
-                    zedm_right_camera_optical_frame:
-                      {}
+          calibration_target:
+            {}
+          gripper0:
+            anchorpoint10:
+              {}
+            dockpoint0:
+              {}
+            grippoint5:
+              {}
+            hoverpoint5:
+              {}
+            marker0:
+              {}
+            trianglemesh11:
+              point11:
+                {}
+          gripper1:
+            anchorpoint11:
+              {}
+            dockpoint1:
+              {}
+            grippoint6:
+              {}
+            hoverpoint6:
+              {}
+            marker1:
+              {}
+            trianglemesh12:
+              point12:
+                {}
+          gripper2:
+            anchorpoint12:
+              {}
+            dockpoint2:
+              {}
+            grippoint7:
+              {}
+            hoverpoint7:
+              {}
+            marker2:
+              {}
+            trianglemesh13:
+              point13:
+                {}
+          gripper3:
+            anchorpoint13:
+              {}
+            dockpoint3:
+              {}
+            grippoint8:
+              {}
+            hoverpoint8:
+              {}
+            marker3:
+              {}
+            trianglemesh14:
+              point14:
+                {}
+          gripper4:
+            anchorpoint14:
+              {}
+            dockpoint4:
+              {}
+            grippoint9:
+              {}
+            hoverpoint9:
+              {}
+            marker4:
+              {}
+            trianglemesh15:
+              point15:
+                {}
+          motive_origin:
+            {}
           platform0:
-            alphashape0:
-              point26:
-                {}
-            anchorpoint25:
+            anchorpoint0:
               {}
-            anchorpoint26:
+            anchorpoint1:
               {}
-            anchorpoint27:
+            anchorpoint2:
               {}
-            anchorpoint28:
+            anchorpoint3:
               {}
-            anchorpoint29:
+            anchorpoint4:
               {}
-            anchorpoint30:
+            anchorpoint5:
               {}
-            anchorpoint31:
+            anchorpoint6:
               {}
-            anchorpoint32:
+            anchorpoint7:
               {}
-            anchorpoint33:
+            anchorpoint8:
               {}
-            anchorpoint34:
+            anchorpoint9:
               {}
-            camera0:
-              {}
-            camera1:
-              {}
-            camera2:
-              {}
-            camera3:
-              {}
-            camera4:
-              {}
-            cylinder11:
-              point27:
-                {}
             depthsensor0:
               {}
             rpparm0:
               revolutelink0:
-                cylinder0:
-                  point0:
-                    {}
-                cylinder1:
-                  point1:
-                    {}
                 prismaticlink0:
-                  cylinder2:
-                    point2:
-                      {}
-                  cylinder3:
-                    point3:
-                      {}
-                  cylinder4:
-                    point4:
-                      {}
                   prismaticlink1:
-                    cylinder5:
-                      point5:
+                    trianglemesh8:
+                      point8:
                         {}
+                  trianglemesh7:
+                    point7:
+                      {}
+                trianglemesh6:
+                  point6:
+                    {}
+              trianglemesh9:
+                point9:
+                  {}
+            trianglemesh10:
+              point10:
+                {}
+          wall0:
+            hold0:
+              grippoint0:
+                {}
+              hoverpoint0:
+                {}
+              trianglemesh0:
+                point0:
+                  {}
+            hold1:
+              grippoint1:
+                {}
+              hoverpoint1:
+                {}
+              trianglemesh1:
+                point1:
+                  {}
+            hold2:
+              grippoint2:
+                {}
+              hoverpoint2:
+                {}
+              trianglemesh2:
+                point2:
+                  {}
+            hold3:
+              grippoint3:
+                {}
+              hoverpoint3:
+                {}
+              trianglemesh3:
+                point3:
+                  {}
+            hold4:
+              grippoint4:
+                {}
+              hoverpoint4:
+                {}
+              trianglemesh4:
+                point4:
+                  {}
+            trianglemesh5:
+              point5:
+                {}
       Update Interval: 0
       Value: true
-    - Class: rviz_default_plugins/Image
+    - Class: rviz_default_plugins/Marker
       Enabled: true
-      Max Value: 1
-      Median window: 5
-      Min Value: 0
-      Name: Image
-      Normalize Range: true
+      Name: Marker
+      Namespaces:
+        "": true
       Topic:
         Depth: 5
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: ""
+        Value: /arm_state_publisher/tether_line
       Value: true
   Enabled: true
   Global Options:
@@ -986,41 +954,39 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 2.2655673027038574
+      Distance: 2.1740567684173584
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.15526100993156433
-        Y: 0.0579119510948658
-        Z: 0.027011780068278313
+        X: 0.47535020112991333
+        Y: 0.4985170364379883
+        Z: -0.030063502490520477
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.38539865612983704
+      Pitch: 1.3447964191436768
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 6.003602981567383
+      Yaw: 5.858606815338135
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 846
+  Height: 1016
   Hide Left Dock: false
   Hide Right Dock: false
-  Image:
-    collapsed: false
-  QMainWindow State: 000000ff00000000fd00000004000000000000030d000002f4fc020000000afb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d0000022d000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d0061006700650100000270000000c10000000000000000fb0000000a0049006d0061006700650100000270000000c10000002800ffffff000000010000010f000002f4fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d000002f4000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004420000003efc0100000002fb0000000800540069006d00650100000000000004420000000000000000fb0000000800540069006d00650100000000000004500000000000000000000002d9000002f400000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000400000000000001700000039efc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d0000039e000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f000002f4fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d000002f4000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004420000003efc0100000002fb0000000800540069006d00650100000000000004420000000000000000fb0000000800540069006d00650100000000000004500000000000000000000005c20000039e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Tool Properties:
     collapsed: false
   Views:
     collapsed: false
-  Width: 1516
-  X: 273
-  Y: 194
+  Width: 1848
+  X: 72
+  Y: 27

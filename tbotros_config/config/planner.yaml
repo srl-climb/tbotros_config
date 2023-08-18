@@ -47,8 +47,8 @@ arm:
  planner:
   arm_to_pose:
    graph:
-    goal_dist: 0.001 # maximum distance to goal
-    directions: [0.005,0.005,0.005] # x, y, z, thetax, thetay, thetaz search direction and resolution
+    goal_dist: 0.003 # maximum distance to goal
+    directions: [0.002,0.002,0.002] # x, y, z, thetax, thetay, thetaz search direction and resolution
     iter_max: 20000 # max iterations of Astar algorithm
 global:
  graph:

@@ -6,6 +6,9 @@ can_id: 13 # can node id
 factor: 1000000 # conversion from ros units -> motor controllers' user defined units -> ros units * factor = motor units
 homing_offset: 0.074 # Offset (in ros units) of the zero position relative to the position of the reference switch (WARNING: change sign in case of reverse polarity)
 homing_method: 18 # Homing method
+csp_velocity: 0.05 # Cyclic synchronous positioning, max velocity (in ros units/s)
+csp_acceleration: 0.05 # Cyclic synchronous positioning, max acceleration (in ros units/s^2)
+csp_deceleration: 0.05 # Cyclic synchronous positioning, max deceleration (in ros units/s^2)
 sdos:
  0x2331: # Velocity control parameter set
   0x01: # Proportional gain of speed controller

@@ -3,8 +3,11 @@
 # NOTE: ros units: meter
 ---
 factor: 1000 # conversion from ros units -> motor controllers' user defined units -> ros units * factor = user units
-homing_offset: 0.1 # Offset (in user units) of the zero position relative to the position of the reference switch (WARNING: change sign in case of reverse polarity)
+homing_offset: 0.1 # Offset (in ros units) of the zero position relative to the position of the reference switch (WARNING: change sign in case of reverse polarity)
 homing_method: 35 # Homing method
+csp_velocity: 0.01 # Cyclic synchronous positioning, max velocity (in ros units/s)
+csp_acceleration: 0.01 # Cyclic synchronous positioning, max acceleration (in ros units/s^2)
+csp_deceleration: 0.01 # Cyclic synchronous positioning, max deceleration (in ros units/s^2)
 sdos:
  0x2350: # Motor data
   0x01: # Speed constant

@@ -7,34 +7,35 @@ platform:
  smoothing:
   ds: 0.003
  profiler:
-  v_t: 0.005 # target velocity
+  v_t: 0.01 # target velocity
   q_lim: [[[-0,2],[-0.01,0.01],[-0.005,0.005]]] # position, velocity, acceleration joint limits 
  planner:
   platform_to_pose:
    graph:
     goal_dist: 0.015 # maximum distance to goal
     goal_skew: 1.5 # maximum skew to goal
-    directions: [0.01,0.01,0,0,0,1] # x, y, z, thetax, thetay, thetaz search direction and resolution
+    directions: [0.01,0.01,0,1,0,0] # x, y, z, thetax, thetay, thetaz search direction and resolution
     iter_max: 20000 # max iterations of Astar algorithm
   platform_to_configuration:
    graph:
     goal_dist: 0.025 # maximum distance to goal
-    goal_skew: 5.5 # maximum skew to goal
-    directions: [0.02,0.02,0,0,0,5] # x, y, z, thetax, thetay, thetaz search direction and resolution
+    goal_skew: 2.5 # maximum skew to goal
+    directions: [0.02,0.02,0,2,0,0] # x, y, z, thetax, thetay, thetaz search direction and resolution
     iter_max: 20000 # max iterations of Astar algorithm
    workspace: # workspace analysis for finding a stable configuration
     padding: [-0.2,-0.2,0,-180,-180,0] # x, y, z, thetax, thetay, thetaz padding of the analysis space
-    scale: [0.1,0.1,1,45,45,15] # x, y, z, thetax, thetay, thetaz scale (= resolution) of the analysis space
+    scale: [0.1,0.1,1,45,45,10] # x, y, z, thetax, thetay, thetaz scale (= resolution) of the analysis space
     mode: "max" # "first", "max"
+    mode_2d: True
   platform_to_gripper:
    graph:
     goal_skew: 1.5 # maximum skew to goal
-    directions: [0.01,0.01,0,0,0,1] # x, y, z, thetax, thetay, thetaz search direction and resolution
+    directions: [0.01,0.01,0,1,0,0] # x, y, z, thetax, thetay, thetaz search direction and resolution
     iter_max: 20000 # max iterations of Astar algorithm
   platform_to_hold:
    graph:
     goal_skew: 1.5 # maximum skew to goal
-    directions: [0.01,0.01,0,0,0,1] # x, y, z, thetax, thetay, thetaz search direction and resolution
+    directions: [0.01,0.01,0,1,0,0] # x, y, z, thetax, thetay, thetaz search direction and resolution
     iter_max: 20000 # max iterations of Astar algorithm 
 arm:
  smoothing:
@@ -47,9 +48,9 @@ arm:
  planner:
   arm_to_pose:
    graph:
-    goal_dist: 0.015 # maximum distance to goal
-    directions: [0.01,0.01,0.01] # x, y, z, thetax, thetay, thetaz search direction and resolution
-    iter_max: 20000 # max iterations of Astar algorithm
+    goal_dist: 0.025 # maximum distance to goal
+    directions: [0.02,0.02,0.01] # x, y, z, thetax, thetay, thetaz search direction and resolution
+    iter_max: 120000 # max iterations of Astar algorithm
 global:
  graph:
   goal_dist: 0.01 # maximum distance to goal
@@ -58,12 +59,14 @@ global:
    padding: [-0.1,-0.1,0,-180,-180,-45] # x, y, z, thetax, thetay, thetaz padding of the analysis space
    scale: [0.2,0.2,0.1,45,45,45] # x, y, z, thetax, thetay, thetaz scale (= resolution) of the analysis space
    mode: "first" # "first", "max"
+   mode_2d: True
  planner:
   fast_platform_to_configuration:
    workspace:
     padding: [-0.1,-1.0,0,-180,-180,-45] # x, y, z, thetax, thetay, thetaz padding of the analysis space
     scale: [0.1,0.1,0.1,45,45,7.5] # x, y, z, thetax, thetay, thetaz scale (= resolution) of the analysis space
     mode: "max" # "first", "max"
+    mode_2d: True
   platform_to_gripper:
    graph:
     goal_skew: 1 # maximum skew to goal
@@ -74,8 +77,3 @@ global:
     goal_skew: 1 # maximum skew to goal
     directions: [0.01,0.01,0,1,0,0] # x, y, z, thetax, thetay, thetaz search direction and resolution
     iter_max: 25 # max iterations of Astar algorithm
-    
-   
-
-  
-

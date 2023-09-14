@@ -24,7 +24,7 @@ sdos:
    
  0x2333: # Current control parameter set
   0x01: # Continuous current limit [mA]
-   value: 440
+   value: 660
   0x02: # Peak current limit [mA]
    value: 1320
   0x03: # Integral term of current controller

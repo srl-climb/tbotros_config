@@ -1,8 +1,8 @@
 # Motor parameters
-# NOTE: user units: milimeter
+# NOTE: user units: micrometer
 # NOTE: ros units: meter
 ---
-factor: 1000 # conversion from ros units -> motor controllers' user defined units -> ros units * factor = user units
+factor: 1000000 # conversion from ros units -> motor controllers' user defined units -> ros units * factor = user units
 homing_offset: 0.1 # Offset (in ros units) of the zero position relative to the position of the reference switch (WARNING: change sign in case of reverse polarity)
 homing_method: 35 # Homing method
 csp_velocity: 0.01 # Cyclic synchronous positioning, max velocity (in ros units/s)
@@ -47,9 +47,9 @@ sdos:
 
  0x607D: # Software position limit
   0x02: # Upper limit of the position range # NOTE: 02 and 01 are switched to avoid errors when setting the parameters
-   value: 2000 # WARNING: change sign in case of reverse polarity 
+   value: 2000000 # WARNING: change sign in case of reverse polarity 
   0x01: # Lower limit of the position range
-   value: -2000 # WARNING: change sign in case of reverse polarity
+   value: -2000000 # WARNING: change sign in case of reverse polarity
   
  0x607F: # Max profile velocity
   0x00: # Maximum permitted speed [min –1 ]
@@ -63,10 +63,10 @@ sdos:
   0x01: # Number of motor revolutions 
    value: 369
   0x02: # Number of revolutions of the output shaft
-   value: 1 
+   value: 10 
    
  0x6092: # Feed constant
   0x01: # Feed in user units
    value: 6281
   0x02: # Number of revolutions of the outputshaft
-   value: 100 
+   value: 1 

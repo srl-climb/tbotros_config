@@ -1,5 +1,5 @@
 # Motor parameters
-# NOTE: user units: micro meter
+# NOTE: user units: micrometer
 # NOTE: ros units: meter
 ---
 can_id: 13 # can node id

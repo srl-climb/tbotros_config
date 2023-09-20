@@ -4,14 +4,10 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
-        - /Global Options1
-        - /Status1
-        - /RobotModel1/Description Topic1
-        - /TF1/Frames1
-        - /Marker1
-        - /Marker1/Topic1
-      Splitter Ratio: 0.3724035620689392
-    Tree Height: 787
+        - /MarkerArray1
+        - /MarkerArray1/Status1
+      Splitter Ratio: 0.41251131892204285
+    Tree Height: 814
   - Class: rviz_common/Selection
     Name: Selection
   - Class: rviz_common/Tool Properties
@@ -49,7 +45,7 @@ Visualization Manager:
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: false
-      Description File: /home/srl-orin/ros2_ws/src/ros2_tetherbot/ros2_tetherbot/testurdf.urdf
+      Description File: ""
       Description Source: Topic
       Description Topic:
         Depth: 5
@@ -199,6 +195,31 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        grippoint10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint12:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint13:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        grippoint14:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         grippoint2:
           Alpha: 1
           Show Axes: false
@@ -259,12 +280,57 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+        hold5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hold6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hold7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hold8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hold9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         hoverpoint0:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
         hoverpoint1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint12:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint13:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hoverpoint14:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -382,7 +448,32 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        point16:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point17:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point18:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point19:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         point2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        point20:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -478,7 +569,32 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        trianglemesh16:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh17:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh18:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh19:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         trianglemesh2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        trianglemesh20:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -533,208 +649,276 @@ Visualization Manager:
       Frames:
         All Enabled: false
         anchorpoint0:
-          Value: true
+          Value: false
         anchorpoint1:
-          Value: true
+          Value: false
         anchorpoint10:
-          Value: true
+          Value: false
         anchorpoint11:
-          Value: true
+          Value: false
         anchorpoint12:
-          Value: true
+          Value: false
         anchorpoint13:
-          Value: true
+          Value: false
         anchorpoint14:
-          Value: true
+          Value: false
         anchorpoint2:
-          Value: true
+          Value: false
         anchorpoint3:
-          Value: true
+          Value: false
         anchorpoint4:
-          Value: true
+          Value: false
         anchorpoint5:
-          Value: true
+          Value: false
         anchorpoint6:
-          Value: true
+          Value: false
         anchorpoint7:
-          Value: true
+          Value: false
         anchorpoint8:
-          Value: true
+          Value: false
         anchorpoint9:
-          Value: true
+          Value: false
+        base_link:
+          Value: false
         calibration_target:
-          Value: true
+          Value: false
         depthsensor0:
-          Value: true
+          Value: false
         dockpoint0:
-          Value: true
+          Value: false
         dockpoint1:
-          Value: true
+          Value: false
         dockpoint2:
-          Value: true
+          Value: false
         dockpoint3:
-          Value: true
+          Value: false
         dockpoint4:
-          Value: true
+          Value: false
         gripper0:
-          Value: true
+          Value: false
         gripper1:
-          Value: true
+          Value: false
         gripper2:
-          Value: true
+          Value: false
         gripper3:
-          Value: true
+          Value: false
         gripper4:
-          Value: true
+          Value: false
         grippoint0:
-          Value: true
+          Value: false
         grippoint1:
-          Value: true
+          Value: false
+        grippoint10:
+          Value: false
+        grippoint11:
+          Value: false
+        grippoint12:
+          Value: false
+        grippoint13:
+          Value: false
+        grippoint14:
+          Value: false
         grippoint2:
-          Value: true
+          Value: false
         grippoint3:
-          Value: true
+          Value: false
         grippoint4:
-          Value: true
+          Value: false
         grippoint5:
-          Value: true
+          Value: false
         grippoint6:
-          Value: true
+          Value: false
         grippoint7:
-          Value: true
+          Value: false
         grippoint8:
-          Value: true
+          Value: false
         grippoint9:
-          Value: true
+          Value: false
         hold0:
-          Value: true
+          Value: false
         hold1:
-          Value: true
+          Value: false
         hold2:
-          Value: true
+          Value: false
         hold3:
-          Value: true
+          Value: false
         hold4:
-          Value: true
+          Value: false
+        hold5:
+          Value: false
+        hold6:
+          Value: false
+        hold7:
+          Value: false
+        hold8:
+          Value: false
+        hold9:
+          Value: false
         hoverpoint0:
-          Value: true
+          Value: false
         hoverpoint1:
-          Value: true
+          Value: false
+        hoverpoint10:
+          Value: false
+        hoverpoint11:
+          Value: false
+        hoverpoint12:
+          Value: false
+        hoverpoint13:
+          Value: false
+        hoverpoint14:
+          Value: false
         hoverpoint2:
-          Value: true
+          Value: false
         hoverpoint3:
-          Value: true
+          Value: false
         hoverpoint4:
-          Value: true
+          Value: false
         hoverpoint5:
-          Value: true
+          Value: false
         hoverpoint6:
-          Value: true
+          Value: false
         hoverpoint7:
-          Value: true
+          Value: false
         hoverpoint8:
-          Value: true
+          Value: false
         hoverpoint9:
-          Value: true
+          Value: false
         map:
           Value: true
         marker0:
-          Value: true
+          Value: false
         marker1:
-          Value: true
+          Value: false
         marker2:
-          Value: true
+          Value: false
         marker3:
-          Value: true
+          Value: false
         marker4:
-          Value: true
+          Value: false
         motive_origin:
-          Value: true
+          Value: false
+        odom:
+          Value: false
         platform0:
-          Value: true
+          Value: false
         point0:
-          Value: true
+          Value: false
         point1:
-          Value: true
+          Value: false
         point10:
-          Value: true
+          Value: false
         point11:
-          Value: true
+          Value: false
         point12:
-          Value: true
+          Value: false
         point13:
-          Value: true
+          Value: false
         point14:
-          Value: true
+          Value: false
         point15:
-          Value: true
+          Value: false
+        point16:
+          Value: false
+        point17:
+          Value: false
+        point18:
+          Value: false
+        point19:
+          Value: false
         point2:
-          Value: true
+          Value: false
+        point20:
+          Value: false
         point3:
-          Value: true
+          Value: false
         point4:
-          Value: true
+          Value: false
         point5:
-          Value: true
+          Value: false
         point6:
-          Value: true
+          Value: false
         point7:
-          Value: true
+          Value: false
         point8:
-          Value: true
+          Value: false
         point9:
-          Value: true
+          Value: false
         prismaticlink0:
-          Value: true
+          Value: false
         prismaticlink1:
-          Value: true
+          Value: false
         revolutelink0:
-          Value: true
+          Value: false
         rpparm0:
-          Value: true
+          Value: false
         tbot_center:
-          Value: true
+          Value: false
         tbot_motive_origin:
-          Value: true
+          Value: false
         trianglemesh0:
-          Value: true
+          Value: false
         trianglemesh1:
-          Value: true
+          Value: false
         trianglemesh10:
-          Value: true
+          Value: false
         trianglemesh11:
-          Value: true
+          Value: false
         trianglemesh12:
-          Value: true
+          Value: false
         trianglemesh13:
-          Value: true
+          Value: false
         trianglemesh14:
-          Value: true
+          Value: false
         trianglemesh15:
-          Value: true
+          Value: false
+        trianglemesh16:
+          Value: false
+        trianglemesh17:
+          Value: false
+        trianglemesh18:
+          Value: false
+        trianglemesh19:
+          Value: false
         trianglemesh2:
-          Value: true
+          Value: false
+        trianglemesh20:
+          Value: false
         trianglemesh3:
-          Value: true
+          Value: false
         trianglemesh4:
-          Value: true
+          Value: false
         trianglemesh5:
-          Value: true
+          Value: false
         trianglemesh6:
-          Value: true
+          Value: false
         trianglemesh7:
-          Value: true
+          Value: false
         trianglemesh8:
-          Value: true
+          Value: false
         trianglemesh9:
-          Value: true
+          Value: false
         wall0:
-          Value: true
+          Value: false
+        zedm_base_link:
+          Value: false
+        zedm_camera_center:
+          Value: false
+        zedm_imu_link:
+          Value: false
+        zedm_left_camera_frame:
+          Value: false
+        zedm_left_camera_optical_frame:
+          Value: false
+        zedm_right_camera_frame:
+          Value: false
+        zedm_right_camera_optical_frame:
+          Value: false
       Marker Scale: 1
       Name: TF
       Show Arrows: false
       Show Axes: true
-      Show Names: false
+      Show Names: true
       Tree:
         map:
           calibration_target:
@@ -744,73 +928,87 @@ Visualization Manager:
               {}
             dockpoint0:
               {}
-            grippoint5:
+            grippoint10:
               {}
-            hoverpoint5:
+            hoverpoint10:
               {}
             marker0:
               {}
-            trianglemesh11:
-              point11:
+            trianglemesh16:
+              point16:
                 {}
           gripper1:
             anchorpoint11:
               {}
             dockpoint1:
               {}
-            grippoint6:
+            grippoint11:
               {}
-            hoverpoint6:
+            hoverpoint11:
               {}
             marker1:
               {}
-            trianglemesh12:
-              point12:
+            trianglemesh17:
+              point17:
                 {}
           gripper2:
             anchorpoint12:
               {}
             dockpoint2:
               {}
-            grippoint7:
+            grippoint12:
               {}
-            hoverpoint7:
+            hoverpoint12:
               {}
             marker2:
               {}
-            trianglemesh13:
-              point13:
+            trianglemesh18:
+              point18:
                 {}
           gripper3:
             anchorpoint13:
               {}
             dockpoint3:
               {}
-            grippoint8:
+            grippoint13:
               {}
-            hoverpoint8:
+            hoverpoint13:
               {}
             marker3:
               {}
-            trianglemesh14:
-              point14:
+            trianglemesh19:
+              point19:
                 {}
           gripper4:
             anchorpoint14:
               {}
             dockpoint4:
               {}
-            grippoint9:
+            grippoint14:
               {}
-            hoverpoint9:
+            hoverpoint14:
               {}
             marker4:
               {}
-            trianglemesh15:
-              point15:
+            trianglemesh20:
+              point20:
                 {}
           motive_origin:
-            {}
+            tbot_motive_origin:
+              tbot_center:
+                {}
+          odom:
+            base_link:
+              zedm_base_link:
+                zedm_camera_center:
+                  zedm_left_camera_frame:
+                    zedm_imu_link:
+                      {}
+                    zedm_left_camera_optical_frame:
+                      {}
+                  zedm_right_camera_frame:
+                    zedm_right_camera_optical_frame:
+                      {}
           platform0:
             anchorpoint0:
               {}
@@ -838,20 +1036,20 @@ Visualization Manager:
               revolutelink0:
                 prismaticlink0:
                   prismaticlink1:
-                    trianglemesh8:
-                      point8:
+                    trianglemesh13:
+                      point13:
                         {}
-                  trianglemesh7:
-                    point7:
+                  trianglemesh12:
+                    point12:
                       {}
-                trianglemesh6:
-                  point6:
+                trianglemesh11:
+                  point11:
                     {}
-              trianglemesh9:
-                point9:
+              trianglemesh14:
+                point14:
                   {}
-            trianglemesh10:
-              point10:
+            trianglemesh15:
+              point15:
                 {}
           wall0:
             hold0:
@@ -894,22 +1092,71 @@ Visualization Manager:
               trianglemesh4:
                 point4:
                   {}
-            trianglemesh5:
-              point5:
+            hold5:
+              grippoint5:
+                {}
+              hoverpoint5:
+                {}
+              trianglemesh5:
+                point5:
+                  {}
+            hold6:
+              grippoint6:
+                {}
+              hoverpoint6:
+                {}
+              trianglemesh6:
+                point6:
+                  {}
+            hold7:
+              grippoint7:
+                {}
+              hoverpoint7:
+                {}
+              trianglemesh7:
+                point7:
+                  {}
+            hold8:
+              grippoint8:
+                {}
+              hoverpoint8:
+                {}
+              trianglemesh8:
+                point8:
+                  {}
+            hold9:
+              grippoint9:
+                {}
+              hoverpoint9:
+                {}
+              trianglemesh9:
+                point9:
+                  {}
+            trianglemesh10:
+              point10:
                 {}
       Update Interval: 0
       Value: true
-    - Class: rviz_default_plugins/Marker
+    - Class: rviz_default_plugins/MarkerArray
       Enabled: true
-      Name: Marker
+      Name: MarkerArray
       Namespaces:
-        "": true
+        tether0: true
+        tether1: true
+        tether2: true
+        tether3: true
+        tether4: true
+        tether5: true
+        tether6: true
+        tether7: true
+        tether8: true
+        tether9: true
       Topic:
         Depth: 5
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /arm_state_publisher/tether_line
+        Value: /visualization_publisher/tether_lines
       Value: true
   Enabled: true
   Global Options:
@@ -954,39 +1201,39 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 2.1740567684173584
+      Distance: 2.008727550506592
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.47535020112991333
-        Y: 0.4985170364379883
-        Z: -0.030063502490520477
+        X: 0.1494159996509552
+        Y: 1.1670536994934082
+        Z: -0.12273531407117844
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.3447964191436768
+      Pitch: 1.1897966861724854
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.858606815338135
+      Yaw: 3.2722203731536865
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 1016
+  Height: 1043
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd0000000400000000000001700000039efc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d0000039e000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f000002f4fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d000002f4000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004420000003efc0100000002fb0000000800540069006d00650100000000000004420000000000000000fb0000000800540069006d00650100000000000004500000000000000000000005c20000039e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd000000040000000000000253000003b9fc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d000003b9000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f000003b9fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003d000003b9000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004420000003efc0100000002fb0000000800540069006d00650100000000000004420000000000000000fb0000000800540069006d0065010000000000000450000000000000000000000412000003b900000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Tool Properties:
     collapsed: false
   Views:
     collapsed: false
-  Width: 1848
-  X: 72
-  Y: 27
+  Width: 1920
+  X: 3840
+  Y: 0

@@ -67,6 +67,6 @@ sdos:
    
  0x6092: # Feed constant
   0x01: # Feed in user units
-   value: 6281
+   value: 6909 # Before: 6281
   0x02: # Number of revolutions of the outputshaft
    value: 1 
